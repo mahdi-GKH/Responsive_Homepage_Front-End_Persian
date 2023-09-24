@@ -1,0 +1,157 @@
+:root{
+    --green-color: #97E711;
+    --black-color : #070C0F;
+    --blue-color: #0063C6;
+
+    --gt-color: radial-gradient(var(--green-color) ,white 200%);
+    --gt-dark-color: linear-gradient(125deg, #2B363A,#10181A 25%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair:wght@700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Playfair:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: var(--black-color);
+}
+ 
+h1 span{
+    color: var(--green-color);
+}
+
+.h1-size{
+    font-size: 5rem;
+}
+
+.sections-margin{
+    margin-top: 5vw;
+}
+
+.Playfair-font{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair', serif;
+}
+
+.bg-gt-dark{
+    background-image: var(--gt-dark-color);
+}
+.bg-gt-green{
+    background-image: var(--gt-color);
+}
+.bg-L-green{
+    background-color: var(--green-color);
+}
+.color-L-green{
+    color: var(--green-color);
+} 
+
+
+ul{
+    list-style-type: none;
+    
+}
+
+ul li a {
+    color: whitesmoke;
+    transition: .5s;
+}
+ul li a:hover {
+    color: var(--green-color);
+}
+
+
+
+.icons-box span{
+    
+    background-image: var(--gt-color);
+    
+
+}
+
+#menu{
+    background-color: rgba(0, 0, 0, 0.384);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+
+nav #logo{
+    
+    color: var(--green-color);
+
+}
+
+nav ul{
+    gap: 100px;
+}
+
+nav #SignUp{
+    color: white;
+    border: 1px solid var(--green-color);
+}
+
+/* nav END! */
+#start{
+    direction: rtl;
+}
+
+
+
+#start #Explore_Now_btn{
+    color: black;
+    padding: 15px 5px;
+    background-image: var(--gt-color);
+    transition: .5s;
+}
+#start #Explore_Now_btn:hover{
+    color: rgb(16, 92, 3);
+    
+}
+ 
+/* section 1 END! */
+
+#mini_info #cards{
+    color: rgba(245, 245, 245, 0.511);
+    
+   
+    
+}
+
+
+/* section 2 END! */
+
+#about .accordion-item,.accordion-button{
+    background-image: var(--gt-dark-color);
+    color: white;
+    border: none !important;
+}
+
+/* section 3 END! */
+
+#user{
+    background-image: url('../img/vr6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#user .user_card{
+    background-image: var(--gt-dark-color);
+}
+
+/* Section 4 END! */
+#slider #dots div{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: white;
+    
+}
+
+.active_dot{
+    background-color: var(--green-color) !important;
+}
